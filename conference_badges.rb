@@ -3,7 +3,7 @@ def badge_maker(name)
 end
 
 def assign_rooms(list)
-  assigments = []
+  assignments = []
   x = 1
   list.each do |name|
   assignments << "Hello, #{name}! You'll be assigned to room #{x}!"
