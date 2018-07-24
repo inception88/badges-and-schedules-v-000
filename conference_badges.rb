@@ -3,9 +3,9 @@ def badge_maker(name)
 end
 
 def assign_rooms(list)
-x = 0
-  while x < 7
-  "Hello, #{list[x]}! You'll be assigned to room #{x+1}!"
+  x = 1
+  list.each do |name|
+  "Hello, #{name}! You'll be assigned to room #{x}!"
   x += 1
   end
 end
