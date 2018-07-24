@@ -2,10 +2,10 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def assign_rooms(speaker)
+def assign_rooms(list)
 x = 0
   while x < 7
-  "Hello, #{speaker[x]}! You'll be assigned to room #{x+1}!"
+  "Hello, #{list[x]}! You'll be assigned to room #{x+1}!"
   x += 1
   end
 end
