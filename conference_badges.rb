@@ -3,11 +3,13 @@ def badge_maker(name)
 end
 
 def assign_rooms(list)
+  assigments = []
   x = 1
   list.each do |name|
-  "Hello, #{name}! You'll be assigned to room #{x}!"
+  assignments << "Hello, #{name}! You'll be assigned to room #{x}!"
   x += 1
   end
+  assignments
 end
 
 def batch_badge_creator(list)
