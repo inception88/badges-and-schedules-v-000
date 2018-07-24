@@ -10,7 +10,12 @@ x = 0
   end
 end
 
-def batch_badge_creator(array)
+def batch_badge_creator(list)
+  new_array = []
+  list.each do |name|
+    new_array << badege_maker(name)
+  end
+  new_array
 end
 
 def printer
